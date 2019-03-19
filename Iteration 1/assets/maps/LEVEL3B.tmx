@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" tiledversion="1.1.6" orientation="orthogonal" renderorder="right-down" width="32" height="12" tilewidth="64" tileheight="64" infinite="0" nextobjectid="15">
+ <tileset firstgid="1" name="tilesheet" tilewidth="64" tileheight="64" tilecount="98" columns="14">
+  <image source="platformPack_tilesheet.png" width="896" height="448"/>
+  <tile id="0">
+   <properties>
+    <property name="collides" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="1">
+   <properties>
+    <property name="collides" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="2">
+   <properties>
+    <property name="collides" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="14">
+   <properties>
+    <property name="collides" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="15">
+   <properties>
+    <property name="collides" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="16">
+   <properties>
+    <property name="collides" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="28">
+   <properties>
+    <property name="collides" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="29">
+   <properties>
+    <property name="collides" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="30">
+   <properties>
+    <property name="collides" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="42">
+   <properties>
+    <property name="collides" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="43">
+   <properties>
+    <property name="collides" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="44">
+   <properties>
+    <property name="collides" type="bool" value="true"/>
+   </properties>
+  </tile>
+ </tileset>
+ <layer name="backgroundimg" width="32" height="12">
+  <data encoding="csv">
+8,8,8,8,8,8,8,8,8,8,8,8,8,8,7,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,
+8,22,8,8,8,8,8,8,8,8,8,8,8,22,8,8,8,8,8,8,8,22,7,8,8,8,8,21,8,8,8,8,
+8,7,21,8,8,8,8,8,8,8,8,8,8,21,8,8,8,8,8,8,8,8,22,8,8,8,22,8,8,8,21,8,
+8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,22,8,8,8,8,8,8,8,8,8,7,8,8,8,8,22,
+8,8,8,21,22,8,8,8,8,8,8,8,8,8,8,8,7,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,
+8,8,8,22,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,
+8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,
+8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,7,22,8,8,8,8,8,8,8,8,
+8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,7,8,
+22,7,8,8,8,8,8,8,8,8,8,8,8,22,8,8,8,8,8,8,8,8,8,21,8,8,8,8,8,0,0,0,
+8,8,8,0,8,8,8,0,0,0,0,0,8,8,8,8,8,8,8,8,0,0,0,8,8,8,8,8,8,8,8,8,
+8,8,8,8,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,8,8,8,8,8,8,8,8,8,8,8,8
+</data>
+ </layer>
+ <layer name="background" width="32" height="12">
+  <data encoding="csv">
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,4,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,4,4,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,4,4,4,
+0,0,0,4,4,4,4,4,4,4,4,0,0,0,0,0,0,0,0,0,0,4,4,0,0,0,4,4,0,4,4,4,
+0,0,0,4,4,4,4,4,4,4,4,0,0,0,0,0,0,0,0,0,0,4,4,0,4,4,4,4,4,4,4,4,
+0,0,0,4,4,4,4,4,4,4,4,0,0,0,0,0,0,0,0,0,0,4,4,0,4,4,4,4,4,4,4,4,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+</data>
+ </layer>
+ <layer name="collision" width="32" height="12">
+  <data encoding="csv">
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,31,31,31,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,31,31,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,31,31,0,0,0,0,0,31,31,31,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,31,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,31,31,31,
+0,0,0,31,31,31,0,0,0,31,31,0,0,0,0,0,0,0,0,0,0,31,31,0,0,0,31,31,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,31,31,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,
+4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4
+</data>
+ </layer>
+ <objectgroup name="object">
+  <object id="1" name="playerSpawn" type="Spawn" x="128" y="512">
+   <point/>
+  </object>
+  <object id="3" name="LevelEnd" type="Spawn" x="1984" y="256">
+   <point/>
+  </object>
+  <object id="5" name="coin" type="Spawn" x="448" y="192">
+   <point/>
+  </object>
+  <object id="7" name="coin" type="Spawn" x="320" y="384">
+   <point/>
+  </object>
+  <object id="8" name="coin" type="Spawn" x="640" y="320">
+   <point/>
+  </object>
+  <object id="9" name="coin" type="Spawn" x="1152" y="128">
+   <point/>
+  </object>
+  <object id="10" name="coin" type="Spawn" x="512" y="576">
+   <point/>
+  </object>
+  <object id="11" name="coin" type="Spawn" x="1152" y="576">
+   <point/>
+  </object>
+  <object id="12" name="coin" type="Spawn" x="1728" y="384">
+   <point/>
+  </object>
+  <object id="13" name="coin" type="Spawn" x="1856" y="576">
+   <point/>
+  </object>
+  <object id="14" name="coin" type="Spawn" x="1408" y="384">
+   <point/>
+  </object>
+ </objectgroup>
+</map>
